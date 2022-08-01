@@ -131,3 +131,5 @@ Here are my steps to completing the task:
             transform: scale(1.2);
         }
 ```
+## 3. Final Result
+the final webpage can be viewed <a href="https://future-skills-day2-task-nooralsharif.netlify.app/" target="_blank">Here.</a>
