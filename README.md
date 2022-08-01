@@ -67,3 +67,67 @@ Here are my steps to completing the task:
         }
 ```
 ![tittle](https://user-images.githubusercontent.com/71409736/182146353-ac918693-db8c-4877-85c4-6067f5601257.gif)
+
+- Next was the card div 
+```CSS
+        #card{
+            margin-top: 80px;
+            margin-bottom: 50px;
+            height: 100px;
+            height: min-content;
+            box-shadow: 1px 6px 6px 2px rgba(0, 0, 0, 0.14);
+            background-color: white;
+            border-bottom: solid 5px #1BCB80;
+            padding: 15px;
+        }
+```
+- Inside the card div, the name tittle div, featured an animation that would transform the width of the div on hover
+```css
+        #name{
+            background-color: #365D7E;
+            width: 300px;
+            height: auto;
+            padding: 1px 10px 1px 0;
+            line-height: 4px;
+            color: white;
+            font-stretch:wider;
+            border-right: solid 10px #1BCB80;
+            border-top-left-radius: 36px;
+
+            /* Animate title card */
+            -webkit-transition: width 1s ease-in-out;
+            -moz-transition: width 1s ease-in-out;
+            -o-transition: width 1s ease-in-out;
+            transition: width 1s ease-in-out;
+        }
+
+        #name:hover{
+            width: 1000px;
+        }
+```
+
+![card](https://user-images.githubusercontent.com/71409736/182146993-fe212f91-b14c-4a27-b5d7-144cee2642b7.gif)
+
+- Likewise, the green button on hover transfored its scale to `scale(1.2)`
+```css
+        #btn{
+            background-color: #1BCB80;
+            color: white;
+            font-family: "bukra";
+            border: none;
+            padding: 5px;
+            width: 130px;
+            cursor:pointer;
+
+            /* Animating card*/
+            -webkit-transition-property: transform;
+            -webkit-transition-duration: 0.2s;
+            
+            transition-property: transform;
+            transition-duration: 0.2s;
+        }
+
+        #btn:hover{
+            transform: scale(1.2);
+        }
+```
