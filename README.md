@@ -1,5 +1,5 @@
 # Future_Skills
-_Day3: CSS: Task 2 for <a href="https://futureskills.mcit.gov.sa/ar/group/10178" target="_blank">Ministry of Communication and Information Technology's Future Skills (مهارات ـ المستقبل#)</a> _
+_Day3: CSS: Task 2 for <a href="https://futureskills.mcit.gov.sa/ar/group/10178" target="_blank">Ministry of Communication and Information Technology's Future Skills (مهارات ـ المستقبل#)</a>_
 
 The task was to recreate a webpage and try to imitade the **CSS** we were given a sample image:
 
