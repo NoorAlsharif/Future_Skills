@@ -20,7 +20,7 @@ Here are my steps to completing the task:
 - the header would contain a logo and the tittle.
 - the content will feature four cards that hold a tittle name with a paragraph.
 - the footer will simply hold my name.
-## 2.CSS
+## 2. CSS
 - The first step was looking for a similar font to add. I endedd up finding `almarai`
 ```CSS
         @font-face {
