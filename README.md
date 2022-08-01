@@ -1,8 +1,10 @@
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6aa85c6f-fa11-4421-934a-71cf51bf6d37/deploy-status)](https://app.netlify.com/sites/future-skills-day2-task-nooralsharif/deploys)
 ![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![image](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
 ![image](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
 # Future_Skills
 _Day3: CSS: Task 2 for <a href="https://futureskills.mcit.gov.sa/ar/group/10178" target="_blank">Ministry of Communication and Information Technology's Future Skills (مهارات ـ المستقبل#)</a>_
 
@@ -140,7 +142,10 @@ Here are my steps to completing the task:
 The final webpage can be viewed <a href="https://future-skills-day2-task-nooralsharif.netlify.app/" target="_blank">Here.</a>
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/6aa85c6f-fa11-4421-934a-71cf51bf6d37/deploy-status)](https://app.netlify.com/sites/future-skills-day2-task-nooralsharif/deploys)
-![image](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![image](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![image](https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white)
-![image](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)
+
+<p align="right">
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+  <img src="https://img.shields.io/badge/VSCode-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+  <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" />
+</p>
