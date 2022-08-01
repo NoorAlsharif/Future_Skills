@@ -1,7 +1,7 @@
 # Future_Skills
 _Day3: CSS: Task 2 for <a href="https://futureskills.mcit.gov.sa/ar/group/10178" target="_blank">Ministry of Communication and Information Technology's Future Skills (مهارات ـ المستقبل#)</a>_
 
-The task was to recreate a webpage and try to imitade the **CSS** we were given a sample image:
+The task was to create a webpage and try to replicate the **CSS** we were given a sample image:
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/71409736/182144230-9291a7bc-44a7-43bd-84c5-0776a09b32ac.jpeg" />
@@ -132,4 +132,4 @@ Here are my steps to completing the task:
         }
 ```
 ## 3. Final Result
-the final webpage can be viewed <a href="https://future-skills-day2-task-nooralsharif.netlify.app/" target="_blank">Here.</a>
+The final webpage can be viewed <a href="https://future-skills-day2-task-nooralsharif.netlify.app/" target="_blank">Here.</a>
