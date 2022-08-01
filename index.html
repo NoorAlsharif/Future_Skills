@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future Skills CSS Task</title>
+    <link rel="icon" type="image/x-icon" href="icon.ico">
+
+    <style>
+        @font-face {
+            font-family: bukra;
+            src: url(Almarai-Regular.ttf);
+        }
+
+        body{
+            direction: rtl;
+            width: 98%;
+            margin: auto;
+            font-family: "bukra", sans-serif;
+            background-color: #D8D8D8;
+        }
+
+        #logo{
+            height: auto;
+            padding: 10px;
+            margin:auto;
+            text-align: center;
+            background-color: #D8D8D8;
+
+            background-image: url("bg light.png");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        img{
+            filter: drop-shadow(1px 2px 2px #222);
+        }
+        
+
+        #title{
+            height: auto;
+            padding:5px;
+            margin:0;
+            text-align: center;
+            background-color: #001860;
+            border-top: solid 17px #1BCB80;
+            color: white;
+            box-shadow: 0 20px 8px 0 rgba(0, 0, 0, 0.20);
+            line-height: 7px;
+            text-shadow: 2px 2px black;
+
+            background-image: url("bg.gif");
+            background-position: bottom;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #card{
+            margin-top: 80px;
+            margin-bottom: 50px;
+            height: 100px;
+            height: min-content;
+            box-shadow: 1px 6px 6px 2px rgba(0, 0, 0, 0.14);
+            background-color: white;
+            border-bottom: solid 5px #1BCB80;
+            padding: 15px;
+        }
+
+        #name{
+            background-color: #365D7E;
+            width: 300px;
+            height: auto;
+            padding: 1px 10px 1px 0;
+            line-height: 4px;
+            color: white;
+            font-stretch:wider;
+            border-right: solid 10px #1BCB80;
+            border-top-left-radius: 36px;
+
+            /* Animate title card */
+            -webkit-transition: width 1s ease-in-out;
+            -moz-transition: width 1s ease-in-out;
+            -o-transition: width 1s ease-in-out;
+            transition: width 1s ease-in-out;
+        }
+
+        #name:hover{
+            width: 1000px;
+        }
+
+        #btndiv{
+            text-align: left;
+        }
+
+        #btn{
+            background-color: #1BCB80;
+            color: white;
+            font-family: "bukra";
+            border: none;
+            padding: 5px;
+            width: 130px;
+            cursor:pointer;
+
+            /* Animating card*/
+            -webkit-transition-property: transform;
+            -webkit-transition-duration: 0.2s;
+            
+            transition-property: transform;
+            transition-duration: 0.2s;
+        }
+
+        #btn:hover{
+            transform: scale(1.2);
+        }
+
+        #tag{
+            margin-top: 80px;
+            margin-bottom: 50px;
+            height: 100px;
+            height: min-content;
+            box-shadow: 1px 6px 6px 2px rgba(0, 0, 0, 0.14);
+            background-color: #1BCB80;
+            color: white;
+            padding: 15px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div id="logo">
+        <img style="height: 220px; width: 220px;" src="MCIT2.png" alt="MCIT logo"> 
+    </div>
+
+    <div id="title">
+        <h1 style="font-weight: bold; font-size: 60px;">مهارات المستقبل</h1>
+        <h3 style="margin-top:0; font-weight:lighter; font-size:27px;">بداية جديدة لجيل رقمي واعد</h3>
+    </div>
+
+    <!-- CARD 1 - DAY 1 -->
+    <div id="card">
+        <div id="name">
+            <h2>تطوير واجهات المواقع</h2>
+            <p>اليوم الأول - HTML</p>
+        </div>
+        <hr>
+        <p>تهدف إلى بناء مجتمع رقمي مزدهر من خلال عملها على تطوير المهارات وتمكين الطاقات<br>
+            الوطنية الرقمية لتكون قادرة على تسريع عملية التحول الرقمي والإسهام في تحقيق<br>
+            توجهاتنا الاستراتيجية المستمدة من رؤية المملكة 2030، أطلقنا العديد من المبادرات إليكم<br>
+            أبرزها
+        </p>
+        <div id="btndiv">
+            <input id="btn" type="button"
+            onclick="location.href='https://futureskills.mcit.gov.sa/ar/group/10178';"
+            value="التفاصيل"/> 
+        </div>
+    </div>
+
+    <!-- CARD 2 - DAY 2 -->
+    <div id="card">
+        <div id="name">
+            <h2>تطوير واجهات المواقع</h2>
+            <p>اليوم الثاني - CSS</p>
+        </div>
+        <hr>
+        <p>تهدف إلى بناء مجتمع رقمي مزدهر من خلال عملها على تطوير المهارات وتمكين الطاقات<br>
+            الوطنية الرقمية لتكون قادرة على تسريع عملية التحول الرقمي والإسهام في تحقيق<br>
+            توجهاتنا الاستراتيجية المستمدة من رؤية المملكة 2030، أطلقنا العديد من المبادرات إليكم<br>
+            أبرزها
+        </p>
+        <div id="btndiv">
+            <input id="btn" type="button"
+            onclick="location.href='https://futureskills.mcit.gov.sa/ar/group/10178';"
+            value="التفاصيل"/> 
+        </div>
+    </div>
+
+    <!-- CARD 3 - DAY 3 -->
+    <div id="card">
+        <div id="name">
+            <h2>تطوير واجهات المواقع</h2>
+            <p>اليوم الثالث - Javascript</p>
+        </div>
+        <hr>
+        <p>تهدف إلى بناء مجتمع رقمي مزدهر من خلال عملها على تطوير المهارات وتمكين الطاقات<br>
+            الوطنية الرقمية لتكون قادرة على تسريع عملية التحول الرقمي والإسهام في تحقيق<br>
+            توجهاتنا الاستراتيجية المستمدة من رؤية المملكة 2030، أطلقنا العديد من المبادرات إليكم<br>
+            أبرزها
+        </p>
+        <div id="btndiv">
+            <input id="btn" type="button"
+            onclick="location.href='https://futureskills.mcit.gov.sa/ar/group/10178';"
+            value="التفاصيل"/> 
+        </div>
+    </div>
+
+    <!-- CARD 4 - DAY 4 -->
+    <div id="card">
+        <div id="name">
+            <h2>تطوير واجهات المواقع</h2>
+            <p>اليوم الرابع - HTML & CSS & Javascript</p>
+        </div>
+        <hr>
+        <p>تهدف إلى بناء مجتمع رقمي مزدهر من خلال عملها على تطوير المهارات وتمكين الطاقات<br>
+            الوطنية الرقمية لتكون قادرة على تسريع عملية التحول الرقمي والإسهام في تحقيق<br>
+            توجهاتنا الاستراتيجية المستمدة من رؤية المملكة 2030، أطلقنا العديد من المبادرات إليكم<br>
+            أبرزها
+        </p>
+        <div id="btndiv">
+            <input id="btn" type="button"
+            onclick="location.href='https://futureskills.mcit.gov.sa/ar/group/10178';"
+            value="التفاصيل"/> 
+        </div>
+    </div>
+    <div id="tag">
+        <h1 style="text-align: center;">نور الشريف</h1>
+    </div>
+</body>
+</html>
